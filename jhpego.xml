@@ -1,0 +1,17 @@
+<credentials>
+	<metadata
+	version="1410620013"
+	passHash="fe5567e8d769550852182cdf69d74bb16dff8e29"
+	/>
+	<data>
+		<credential title="nova versao" web="www.dropbox.com" user="jhpego@gmail.com">passwordDropbox</credential>
+		<credential title="meugmail" web="www.gmail.com" user="jhpego@gmail.com">gmailDropbox</credential>
+		<credential title="hotmail" web="www.hotmail.com" user="socorro.goomes@gmail.com">hotmailPass</credential>
+		<credential title="dropbox" web="www.dropbox.com" user="socorro.goomes@gmail.com">hotmailPass</credential>
+		<credential title="financas" web="www.irs.com" user="socorro.goomes@gmail.com">hotmailPass</credential>
+		<credential title="Mail Mae" web="www.gmail.com" user="mariajoaopego@gmail.com">passmae</credential>
+		<credential title="alojamento" web="www.alojamento.com" user="socorro.goomes@gmail.com">hotmailPass</credential>
+		<credential title="meugmail" web="www.hotmail.com" user="socorro.goomes@gmail.com">hotmailPass</credential>
+		<credential title="outrogmail" web="www.hotmail.com" user="socorro.goomes@gmail.com">hotmailPass</credential>
+	</data>
+</credentials>

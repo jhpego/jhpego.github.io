@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+<script>
+
+
+window.onload = function() {
+if ("geolocation" in navigator) {
+  alert("geolocation ok")
+	 navigator.geolocation.getCurrentPosition(function(position) {
+	  alert(position.coords.latitude);
+	}, function(err) {
+	alert("didnt get" + err.message);
+	}); 
+  
+} else {
+  alert("geolocation not")
+}
+  
+};
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+{
+	"profile": "Considero-me um profissional dedicado e autodidacta, com sólidos conhecimentos no ramo informático, procurando constantemente evoluir e manter-me actualizado.<br/>Devido à minha experiência na área, possuo bastante prática no uso de ambientes Windows, software Office, edição imagem, entre muitos outros, e facilidade de adaptação a outros softwares.<br/>Face a novos desafios, tenho uma abordagem pró-activa, entusiasta, organizada e eficaz, com especial foco nos resultados. Faz também parte da minha personalidade, o dinamismo, gosto pela aprendizagem, espírito de equipa e cooperação.<br/>Actualmente, frequento Licenciatura de Informática na Faculdade de Ciências de Lisboa, com o objectivo de me aprimorar profissionalmente.",
+
+    "personal": {
+        "surname": "Pego",
+        "name": "Jorge Humberto Januário",
+        "address": "Beco do Açude de Baixo",
+		"city": "Cartaxo",
+        "mobile": "916057771",
+        "email": "jhpego@gmail.com",
+        "web": "www.jhpego.pegonet.com",
+        "nationality": "Português",
+        "birth": "1979-11-09",
+        "gender": "Masculino",
+		"marital": "Solteiro"
+    },
+    "professional": [
+        {
+            "init": "Set 2010",
+            "end": "Set 2011",
+            "position": "Chefe de Turno",
+            "activity": "Responsavel pela secção plasticos no turno da noite, encarregado de coordenar os recursos materiais e humanos, e da configuração, manutenção e optimização do equipamento fabril, com o objectivo de cumprir a produção planificada",
+            "employer": "Jodel, S.A.",
+            "sector": "Fabricante de Produtos quimicos"
+        },
+        {
+            "init": "Mai 2008",
+            "end": "Ago 2010",
+            "position": "Operador Auxiliar",
+            "activity": "Prestava tarefas auxiliares à produção de embalagens e detergentes, que incluíam a alimentação de matéria-prima do equipamento, manutenção, controlo de qualidade, armazenamento",
+            "employer": "Jodel, S.A.",
+            "sector": "Fabricante de Produtos quimicos"
+        },
+        {
+            "init": "Mar 2007",
+            "end": "Abr 2008",
+            "position": "Empregado de Escritório",
+            "activity": "Continuação das mesmas funções anteriores, sob a nova gerência.",
+            "employer": "Xptex, Lda",
+            "sector": "Confecção de têxteis para Hotelaria"
+        },
+        {
+            "init": "Mar 2002",
+            "end": "Fev 2007",
+            "position": "Empregado de Escritório",
+            "activity": "Responsável pelas tarefas administrativas da empresa, de onde constavam: Faturação a clientes, encomendas a fornecedores, composição de correspondência, gestão de vendas, entre outras. Acumulava ainda com as funções de Serigrafia",
+            "employer": "Abílio Martins Matias (Bilotel)",
+            "sector": "Confecção de têxteis para Hotelaria"
+        },
+        {
+            "init": "Jul 2000",
+            "end": "Dez 2000",
+            "position": "Aprendiz de Serigrafia",
+            "activity": "Responsável pela secção serigrafia, que incluíam todo o percurso, desde a preparação dos fotolitos em computador, preparação  manutenção das tintas e consequente impressão em tecidos",
+            "employer": "Abílio Martins Matias (Bilotel)",
+            "sector": "Confecção de têxteis para Hotelaria"
+        },
+        {
+            "init": "Set 1999",
+            "end": "Jan 2000",
+            "position": "Operador Ajudante",
+            "activity": "Reposição de Mercadorias, verificação de stocks, verificação de prazos de validade",
+            "employer": "Modelo Cartaxo",
+            "sector": "Hipermercado"
+        }
+    ],
+    "education": [
+        {
+            "init": "Set 2011",
+            "end": "Actualmente",
+            "dates": "Setembro 2011 – atualmente",
+            "qualification": "Licenciatura em Engenharia Informática",
+            "school": "Faculdade de Ciências da Universidade de Lisboa",
+            "grade": "A frequentar"
+        },
+        {
+            "init": "Set 2010",
+            "end": "Jun 2011",
+            "qualification": "Licenciatura em Informática",
+            "school": "Escola Superior de Gestão e Tecnologia de Santarém",
+            "grade": "Incompleto"
+        },
+        {
+            "init": "Set 1994",
+            "end": "Jun 1998",
+            "qualification": "Ensino Secundário - Agrupamento 1 Geral - Científico-Natural",
+            "school": "Escola Secundária do Cartaxo",
+            "grade": "13 de 20 valores"
+        }
+    ],
+    "skills": {
+        "language": "Português",
+        "otherLanguage": [
+            {
+                "language": "Inglês",
+                "knowOral": 85,
+				"knowRead": 90,
+				"speakInteraction": 90,
+				"speakProduction": 75,
+				"write": 80
+            },
+            {
+                "language": "Espanhol",
+                "knowOral": 80,
+				"knowRead": 80,
+				"speakInteraction": 80,
+				"speakProduction": 70,
+				"write": 80            
+			},
+			{
+                "language": "Francês",
+                "knowOral": 70,
+				"knowRead": 60,
+				"speakInteraction": 50,
+				"speakProduction": 40,
+				"write": 50
+			}
+        ],
+        "social": "Espírito de trabalho em equipa.<br/>Flexibilidade e capacidade de adaptação.<br/>Facilidade de comunicação",
+        "organizational": "Sentido de responsabilidade e organização<br/>Capacidade de liderança<br/>Capacidades adquiridas ao longo do percurso académico e pessoal<br/>Aptidão e gosto por uma aprendizagem contínua",
+        "computing": [
+            {"skill" :"Windows", "level": 85},
+            {"skill" :"Linux", "level": 50},
+            {"skill" :"Office", "level": 80},
+            {"skill" :"Java", "level": 70},
+            {"skill" :"C+", "level": 60},
+            {"skill" :"PHP", "level": 70},
+            {"skill" :"Web Design", "level": 75},
+            {"skill" :"Base de Dados", "level": 75}
+        ],
+        "driver": "Carta de Veículos Ligeiros (B)"
+    }
+}

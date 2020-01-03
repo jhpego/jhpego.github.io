@@ -1,0 +1,172 @@
+ body{
+ background-image: url('../media/fundo.png');
+ background-attachment:fixed;
+ background-color: #222;
+font-family: 'Nova Square', cursive;
+color: #FFF;
+font-size: 12px;
+ }
+ 
+ 
+ body, html {
+ height: 100%;
+  margin: 0px;
+ padding: 0px;
+ }
+
+ .hidden {display:none;}
+
+.table {
+margin-bottom:50px;
+} 
+
+.leftCell{
+	vertical-align:top;
+	width:200px;
+	text-align:right;
+	color: #aaa;
+}
+
+.rightCell{
+	vertical-align:top;
+	width: 400px;
+	padding-left: 5px;
+
+}
+
+
+.spacer > td {
+padding-bottom: 15px;
+}
+
+#header {
+	margin: 0 auto;
+    position:fixed; top:0; left:0; right:0;
+	width:640px;
+    height:135px;
+    background-color:#333333;
+	border-left: 1px solid #555;
+	border-right: 1px solid #555;
+}
+
+#logo {
+margin-left: 20px;
+margin-top: 10px;
+ background-image: url('../media/logo.png');
+ display: block;
+ width:427px;
+ height:38px;
+ }
+ 
+ 
+
+ 
+#content {
+	margin: 0 auto;
+	width:640px;
+	margin-top: 135px;
+	padding-top: 3px;
+	background-color: #242424;
+	border-left: 1px solid #555;
+	border-right: 1px solid #555;
+}
+
+#content > div {
+padding: 0px 30px 30px 60px;
+}
+
+.title {
+	background: url(../media/line.png) no-repeat;
+	background-position: 0px bottom;
+	width: 100%;
+	text-transform: lowerCase;
+	text-indent:53px;
+	font: 20px "Nunito";
+	color: #0099FF;
+	margin-bottom: 30px;
+}
+
+
+#perfil h1 a, #education h1 a, #professional h1 a, #skills h1 a, #contacts h1 a {
+	display:block;
+	height: 32px;
+	background: url(../media/icons.png) no-repeat;
+	margin-left: -45px;
+} 
+
+#perfil h1 a, #perfilBT {background-position:0px 0px;}
+#education h1 a, #educationBT { background-position:0px -32px;}
+#professional h1 a, #professionalBT {background-position:0px -64px;}
+#skills h1 a, #skillsBT  { background-position:0px -96px;}
+#contacts h1 a, #contactsBT {background-position:0px -224px;}
+#normalCV { background-position:left -128px;}
+#europassCV {background-position:left -160px;}
+#facebook {background-position:0px -192px;}
+
+
+ #nav {
+ position:fixed;
+ right: 0px;
+  top: 0px;
+display:block;
+list-style-type:none;
+margin:0;
+ }
+ 
+ #nav li a{
+background-image: url(../media/icons.png);
+margin-right: 5px;
+display:block;
+float: left;
+width:32px;
+height: 32px;
+
+ }
+ 
+#foto {
+float:right;
+margin: 10px 25px 0px 0px;
+ background-image: url('../media/foto.png');
+ display: block;
+ width:88px;
+ height:122px;
+}
+
+
+.ancora {
+ position:absolute;
+margin-top: -135px;
+}
+
+
+
+
+#profile {
+border-left: 5px solid #CCCCCC;
+margin-top:8px;
+margin-left: 20px;
+padding-left: 5px;
+}
+
+#contactMe {
+
+margin-left: 30px;
+}
+
+#contactMe input, #contactMe textarea{
+display: block;
+width: 300px;
+margin:0px 0px 10px 0px;
+padding: 3px;
+background-color: #202020;
+border: 1px solid #313131;
+color: #aaa;
+font-family:inherit;
+box-sizing: content-box;
+}
+
+#contactMe #enviar {
+background-color: #333333;
+border: 1px solid #0D0D0D;
+cursor:pointer;
+}

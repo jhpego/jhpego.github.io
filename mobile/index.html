@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <title>title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <script src="lib/jquery-1.6.4.js"></script>
+        <script>
+        
+        $( document ).ready(function() {
+
+	        function buildTable(data){
+			var _html="";
+			var lastIdx= $(data).find('credential').length-1;	
+			$(data).find('credential').each(function(index, value) {
+				if (index==0)  {cornerClass="ui-corner-top"}
+				else if (index==lastIdx) {cornerClass="ui-corner-bottom"}
+				else {cornerClass=""}
+				//_html += '<li><a href="#page2">'+$(this).attr("title")+'<span class="ui-li-count">3</span></a></li>';			
+			_html += '<li data-corners="false" data-shadow="false" data-iconshadow="true" data-wrapperels="div" data-icon="arrow-r" data-iconpos="right" data-theme="c" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-li-has-count ui-btn-up-c '+cornerClass+'"><div class="ui-btn-inner ui-li"><div class="ui-btn-text"><a href="#page2" class="ui-link-inherit">'+$(this).attr("title")+'<span class="ui-li-count ui-btn-up-c ui-btn-corner-all">3</span></a></div><span class="ui-icon ui-icon-arrow-r ui-icon-shadow">&nbsp;</span></div></li>';
+				//_html += '<tr class="rows"><td class="checked" data-pass="'+$(this).text()+'"><input type="radio" name="checked"></td>';
+				//_html += '<td class="editable title" data-info="'+$(this).attr("title")+'">'+$(this).attr("title")+'</td>';
+				//_html += '<td class="editable web" data-info="'+$(this).attr("web")+'">'+$(this).attr("web")+'</td>';
+				//_html += '<td class="editable user" data-info="'+$(this).attr("user")+'">'+$(this).attr("user")+'</td></tr>';			
+			});
+			$("ul#credentials").append(_html);
+		}
+        
+
+        
+	        $.get( "jhpego.xml", function( data ) {
+			buildTable(data);
+			alert( data );
+		});
+	        
+	        
+
+        
+        });
+        
+        
+        </script>
+
+        <script src="lib/jquery.mobile-1.1.0.js"></script>
+        <link href="src/css/jquery.mobile.structure-1.1.0.css" rel="stylesheet"/>
+        <link href="src/css/jquery.mobile.theme-1.1.0.css" rel="stylesheet" />
+        
+        
+        
+    </head>
+    
+    <body>
+        <div data-role="page" id="page1">
+            <div data-role="header">
+                <h1>Header</h1>
+            </div>
+            <div data-role="content">
+                <ul id="credentials" data-role="listview" data-inset="true">
+
+                </ul>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <h1>Footer</h1>
+                <select data-native-menu="false">
+                    <option value="Value">Option1</option>
+                    <option value="Value">Option2</option>
+                    <option value="Value">Option3</option>
+                </select>
+            </div>
+        </div>
+        <div data-role="page" id="page2">
+            <div data-role="header">
+                <h1>Editar password</h1>
+            </div>
+            <div data-role="content">
+                <div data-role="fieldcontain">
+                    <label for="text1">Label</label>
+                    <input type="text" id="text1" />
+                </div>
+                <div data-role="fieldcontain">
+                    <label for="text2">Label2</label>
+                    <input type="text" id="text2" />
+                </div>
+            </div>
+            <div data-role="footer">
+                <h1>Footer</h1>
+            </div>
+        </div>
+    </body>
+
+</html>

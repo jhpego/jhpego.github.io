@@ -1,0 +1,97 @@
+<?xml version='1.0' standalone='yes' ?>
+<curriculo>
+	<personal>
+		<surname>Pego</surname>
+		<name>Jorge Humberto Januário</name>
+		<address>Beco do Açude de Baixo</address>
+		<mobile>916057771</mobile>
+		<email>jhpego@gmail.com</email>
+		<web>www.jhpego.pegonet.com</web>
+		<nationality>Portuguesa</nationality>
+		<birth>09 de Novembro de 1979</birth>
+		<gender>Masculino</gender>
+	</personal>
+	
+	<professional>
+		<job init="Set 2010" end="Set 2011">
+			<position>Chefe de Turno</position>
+			<activity>Responsável pela secção plásticos no turno da noite,
+			encarregado de coordenar os recursos materiais e humanos, e da configuração, manutenção e optimização do equipamento fabril, 
+			com o objectivo de cumprir a produção planificada</activity>
+			<employer>Jodel, S.A.</employer>
+			<sector>Fabricante de Produtos quimicos</sector>
+		</job>
+		<job init="Mai 2008" end="Ago 2010">
+			<position>Operador Auxiliar</position>
+			<activity>Prestava tarefas auxiliares à produção de embalagens e detergentes, que incluíam a alimentação de matéria-prima do equipamento, manutenção, controlo de qualidade, armazenamento</activity>
+			<employer>Jodel, S.A.</employer>
+			<sector>Fabricante de Produtos quimicos</sector>
+		</job>
+		<job init="Mar 2002" end="Fev 2007">
+			<position>Empregado de Escritório</position>
+			<activity>Continuação das mesmas funções anteriores, sob a nova gerência.</activity>
+			<employer>Xptex, Lda</employer>
+			<sector>Confecção de têxteis para Hotelaria</sector>
+		</job>
+		<job init="Mar 2002" end="Fev 2007">
+			<position>Empregado de Escritório</position>
+			<activity>Responsável pelas tarefas administrativas da empresa, de onde constavam: Faturação a clientes, encomendas a fornecedores, composição de correspondência, gestão de vendas, entre outras. Acumulava ainda com as funções de Serigrafia</activity>
+			<employer>Abílio Martins Matias (Bilotel)</employer>
+			<sector>Confecção de têxteis para Hotelaria</sector>
+		</job>
+		<job init="Jul 2000" end="Dez 2000">
+			<position>Aprendiz de Serigrafia</position>
+			<activity>Responsável pela secção serigrafia, que incluíam todo o percurso, desde a preparação dos fotolitos em computador, preparação e manutenção das tintas e consequente impressão em tecidos</activity>
+			<employer>Abílio Martins Matias (Bilotel)</employer>
+			<sector>Confecção de têxteis para Hotelaria</sector>
+		</job>
+		<job init="Set 1999" end="Jan 2000">
+			<position>Operador Ajudante</position>
+			<activity>Reposição de Mercadorias, verificação de stocks, verificação de prazos de validade</activity>
+			<employer>Modelo Cartaxo</employer>
+			<sector>Hipermercado</sector>
+		</job>
+	</professional>
+	
+	<education title="Educação e Formação">
+		<formation init="Set 2011" end="Actualmente">
+			<dates>Setembro 2011 – atualmente</dates>
+			<qualification>Licenciatura em Engenharia Informática</qualification>
+			<school>Faculdade de Ciências da Universidade de Lisboa</school>
+			<grade>A frequentar</grade>
+		</formation>
+		<formation init="Set 2010" end="Jun 2011">
+			<qualification>Licenciatura em Informática</qualification>
+			<school>Escola Superior de Gestão e Tecnologia de Santarém</school>
+			<grade>Incompleto</grade>
+		</formation>
+		<formation init="Set 2010" end="Jun 2011">
+			<qualification>Ensino Secundário - Agrupamento 1 - Científico-Natural - Geral</qualification>
+			<school>Escola Secundária do Cartaxo</school>
+			<grade>13 de 20 valores</grade>
+		</formation>
+	</education>
+	<skills>
+		<item type="language">Português</item>
+		<item type="otherlanguage">preencher com avaliação de outras linguas</item>
+		<item type="social">Espírito de trabalho em equipa. Flexibilidade e capacidade de adaptação. Facilidade de comunicação</item>
+		<item type="organizational"><![CDATA[
+		Sentido de responsabilidade e organização<br>
+		Capacidade de liderança<br/>
+		Capacidades adquiridas ao longo do percurso académico e pessoal<br/>
+		Aptidão e gosto por uma aprendizagem contínua
+		]]></item>
+		<item type="computing"><![CDATA[
+		Vasta experiência com o sistema operativo Windows e razoável com o sistema operativo Linux</br>
+		Domínio do software Office (Word, Excel, Access, PowerPoint)<br/>
+		Programação (JAVA, C, PHP, javascript, etc)<br/>C
+		Criação e Gestão de Websites, Sistemas de base de dados
+		]]></item>
+		<item type="driver">Carta de Veículos Ligeiros (B)
+		</item>
+	
+	</skills>
+	
+	
+ 
+</curriculo>
